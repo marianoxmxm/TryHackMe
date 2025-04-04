@@ -1,4 +1,3 @@
-````markdown
 # Explotación de Vulnerabilidad SSRF en Convertidor de PDF (TryHackMe - MD2PDF)
 
 Este documento detalla el proceso de explotación de una vulnerabilidad de Server-Side Request Forgery (SSRF) en la sala MD2PDF de TryHackMe.
@@ -14,7 +13,7 @@ La aplicación web es un conversor de Markdown a PDF que utiliza una versión vu
 La primera fase consistió en interactuar con la aplicación para entender su funcionamiento. Al generar un PDF de prueba y analizar sus metadatos con la herramienta `pdfinfo`, se obtuvo información clave sobre la tecnología utilizada.
 ```bash
 pdfinfo generated.pdf
-````
+
 
 La salida de este comando reveló que el PDF fue creado con `wkhtmltopdf 0.12.5`.
 
