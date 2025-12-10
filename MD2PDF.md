@@ -13,6 +13,7 @@ La aplicación web es un conversor de Markdown a PDF que utiliza una versión vu
 La primera fase consistió en interactuar con la aplicación para entender su funcionamiento. Al generar un PDF de prueba y analizar sus metadatos con la herramienta `pdfinfo`, se obtuvo información clave sobre la tecnología utilizada.
 ```bash
 pdfinfo generated.pdf
+```
 
 
 La salida de este comando reveló que el PDF fue creado con `wkhtmltopdf 0.12.5`.
